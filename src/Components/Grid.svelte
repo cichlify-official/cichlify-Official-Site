@@ -1,6 +1,6 @@
 <!-- File: src/components/Grid.svelte -->
 <script>
-    import { fly, fade } from 'svelte/transition';
+    import { fly, } from 'svelte/transition';
     const items = [
       {
         title: 'Innovative Software Solutions',
@@ -11,7 +11,7 @@
       {
         title: 'Tech Insights Blog',
         description: 'Stay ahead of the curve with our expert analysis on the latest technology trends and innovations.',
-        button: 'Read Our Blog',
+        button: 'Our Blog',
         class: 'item-2'
       },
       {
@@ -22,7 +22,7 @@
       },
       {
         title: 'Support Center',
-        description: 'Get answers to your questions with our dedicated support team and comprehensive knowledge base.',
+        description: 'Get answers to your questions with our dedicated support team.',
         button: 'Get Help',
         class: 'item-4'
       },
@@ -89,11 +89,12 @@
     }
   
     .btn {
+      width: 50%;
       background: linear-gradient(90deg, var(--primary), var(--secondary));
       color: #fff;
       border: none;
-      border-radius: 50px;
-      padding: 0.8rem 1.8rem;
+      border-radius: 40px;
+      padding: 1rem 1.8rem;
       font-size: 0.9rem;
       font-weight: 600;
       cursor: pointer;
@@ -114,31 +115,31 @@
     /* Custom Grid Item Layouts */
     .item-1 {
       grid-column: 1 / 3;
-      background: linear-gradient(135deg, rgba(0, 180, 255, 0.1), rgba(0, 255, 157, 0.1));
+      background: linear-gradient(135deg,#282b28);
     }
   
     .item-2 {
       grid-column: 3 / 4;
       grid-row: 1 / 3;
-      background: linear-gradient(135deg, rgba(255, 0, 170, 0.1), rgba(0, 180, 255, 0.1));
+      background: linear-gradient(135deg,#282b28);
     }
   
     .item-3 {
       grid-column: 1 / 2;
       grid-row: 2 / 4;
-      background: linear-gradient(135deg, rgba(0, 255, 157, 0.1), rgba(0, 180, 255, 0.1));
+      background: linear-gradient(135deg,#282b28);
     }
   
     .item-4 {
       grid-column: 2 / 3;
       grid-row: 2 / 3;
-      background: linear-gradient(135deg, rgba(0, 180, 255, 0.1), rgba(111, 0, 255, 0.1));
+      background: linear-gradient(135deg,#282b28);
     }
   
     .item-5 {
       grid-column: 2 / 4;
       grid-row: 3 / 4;
-      background: linear-gradient(135deg, rgba(255, 0, 170, 0.1), rgba(0, 255, 157, 0.1));
+      background: linear-gradient(135deg,#282b28);
     }
   
     @media (max-width: 1024px) {
