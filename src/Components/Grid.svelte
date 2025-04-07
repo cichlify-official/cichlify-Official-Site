@@ -120,7 +120,7 @@
     }
     .item-1:hover {
       background-image: 
-      linear-gradient(135deg, #282b28, rgba(0, 255, 157, 0.1)),
+      linear-gradient(135deg, #282b28, rgba(8, 8, 8, 0.1)),
       url('../src/assets/images/innovation.jpg'); 
       background-size: cover;
       background-position: center;
@@ -138,7 +138,7 @@
 
     .item-2:hover {
       background-image: 
-      linear-gradient(135deg, #282b28, rgba(0, 255, 157, 0.1)),
+      linear-gradient(135deg, #282b28, rgba(8, 8, 8, 0.1)),
       url('../src/assets/images/insight.jpg'); 
       background-size: cover;
       background-position: center;
@@ -154,7 +154,7 @@
 
     .item-3:hover {
       background-image: 
-      linear-gradient(135deg, #282b28, rgba(0, 255, 157, 0.1)),
+      linear-gradient(135deg, #282b28, rgba(8, 8, 8, 0.1)),
       url('../src/assets/images/support.jpg'); 
       background-size: cover;
       background-position: center;
@@ -169,7 +169,7 @@
 
     .item-4:hover {
       background-image: 
-      linear-gradient(135deg, #282b28, rgba(0, 255, 157, 0.1)),
+      linear-gradient(135deg, #282b28, rgba(8, 8, 8, 0.1)),
       url('../src/assets/images/story.jpg'); 
       background-size: cover;
       background-position: center;
@@ -185,7 +185,7 @@
 
     .item-5:hover {
       background-image: 
-      linear-gradient(135deg, #282b28, rgba(0, 255, 157, 0.1)),
+      linear-gradient(135deg, #282b28, rgba(8, 8, 8, 0.1)),
       url('../src/assets/images/ready.jpg'); 
       background-size: cover;
       background-position: center;
