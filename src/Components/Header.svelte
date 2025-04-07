@@ -1,7 +1,7 @@
 <!-- File: src/components/Header.svelte -->
 <section class="header">
     <h1>Cichlify</h1>
-    <p>Transform your digital presence with our cutting-edge software solutions tailored to your business needs</p>
+    <p>Ready to revolutionize your digital presence? Discover cutting-edge software solutions designed specifically to elevate your business needs.</p>
   </section>
   
   <style>

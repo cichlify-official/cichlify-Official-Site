@@ -97,7 +97,7 @@
       padding: 1rem 1.8rem;
       font-size: 0.9rem;
       font-weight: 600;
-      cursor: pointer;
+      cursor: url('src/assets/cichlify cursor.png'), auto;
       display: inline-flex;
       align-items: center;
       gap: 8px;

@@ -1,16 +1,20 @@
 <div class="footer">
     <div class="footer-nav">
-        <a href="#">About Us</a>
-        <a href="#">Services</a>
-        <a href="#">Case Studies</a>
-        <a href="#">Contact</a>
-        <a href="#">Careers</a>
+        <a href="/">About Us</a>
+        <a href="/">Services</a>
+        <a href="/">Case Studies</a>
+        <a href="/">Contact</a>
+        <a href="/">Careers</a>
+    </div>
+    <div>
+        <p>&copy; 2025 Cichlify. All rights reserved.</p>
+        <p>Privacy Policy | Terms of Service</p>
     </div>
     <div class="social-links">
-        <a href="#"><i class="fab fa-twitter"></i></a>
-        <a href="#"><i class="fab fa-linkedin"></i></a>
-        <a href="#"><i class="fab fa-github"></i></a>
-        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="/" aria-label="LinkedIn"><i class="fab fa-youtube"></i></a>
+        <a href="/" aria-label="instagram"><i class="fab fa-instagram"></i></a>
+        <a href="/" aria-label="twitter"><i class="fas fa-envelope"></i></a>
+        <a href="/" aria-label="LinkedIn"><i class="fas fa-phone"></i></a>
     </div>
 </div>
 
