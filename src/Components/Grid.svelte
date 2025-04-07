@@ -15,15 +15,15 @@
         class: 'item-2'
       },
       {
-        title: 'Our Story',
-        description: 'From visionary beginnings to industry leadership, learn about our journey and the team behind our success.',
-        button: 'Our History',
-        class: 'item-3'
-      },
-      {
         title: 'Support Center',
         description: 'Get answers to your questions with our dedicated support team.',
         button: 'Get Help',
+        class: 'item-3'
+      },
+      {
+        title: 'Our Story',
+        description: 'From visionary beginnings to industry leadership, learn about our journey and the team behind our success.',
+        button: 'Our History',
         class: 'item-4'
       },
       {
@@ -52,7 +52,7 @@
     .grid-container {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
-      grid-template-rows: repeat(3, 220px);
+      grid-template-rows: repeat(3, 250px);
       gap: 1.5rem;
       margin-bottom: 3rem;
     }
@@ -112,16 +112,38 @@
       transform: translateX(3px);
     }
   
-    /* Custom Grid Item Layouts */
+
     .item-1 {
       grid-column: 1 / 3;
       background: linear-gradient(135deg,#282b28);
+      transition: all 0.3s ease;
     }
+    .item-1:hover {
+      background-image: 
+      linear-gradient(135deg, #282b28, rgba(0, 255, 157, 0.1)),
+      url('../src/assets/images/innovation.jpg'); 
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      color: white;
+           
+    }
+
   
     .item-2 {
       grid-column: 3 / 4;
       grid-row: 1 / 3;
       background: linear-gradient(135deg,#282b28);
+    }
+
+    .item-2:hover {
+      background-image: 
+      linear-gradient(135deg, #282b28, rgba(0, 255, 157, 0.1)),
+      url('../src/assets/images/insight.jpg'); 
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      color: white;
     }
   
     .item-3 {
@@ -129,17 +151,46 @@
       grid-row: 2 / 4;
       background: linear-gradient(135deg,#282b28);
     }
-  
+
+    .item-3:hover {
+      background-image: 
+      linear-gradient(135deg, #282b28, rgba(0, 255, 157, 0.1)),
+      url('../src/assets/images/support.jpg'); 
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      color: white;
+    }
     .item-4 {
       grid-column: 2 / 3;
       grid-row: 2 / 3;
       background: linear-gradient(135deg,#282b28);
+    }
+
+    .item-4:hover {
+      background-image: 
+      linear-gradient(135deg, #282b28, rgba(0, 255, 157, 0.1)),
+      url('../src/assets/images/story.jpg'); 
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      color: white;
     }
   
     .item-5 {
       grid-column: 2 / 4;
       grid-row: 3 / 4;
       background: linear-gradient(135deg,#282b28);
+    }
+
+    .item-5:hover {
+      background-image: 
+      linear-gradient(135deg, #282b28, rgba(0, 255, 157, 0.1)),
+      url('../src/assets/images/ready.jpg'); 
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      color: white;
     }
   
     @media (max-width: 1024px) {
