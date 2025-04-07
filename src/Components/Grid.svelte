@@ -4,7 +4,7 @@
     const items = [
       {
         title: 'Innovative Software Solutions',
-        description: 'Discover our comprehensive suite of products designed to streamline operations and boost productivity across your organization.',
+        description: 'Discover our suite of products designed to streamline operations and boost productivity across your organization.',
         button: 'Explore Products',
         class: 'item-1'
       },
@@ -156,15 +156,30 @@
     }
   
     @media (max-width: 768px) {
+    
+      .grid-item h2{
+        font-size: 1.2rem;
+      }
+
+      .btn{
+        width: 100%;
+        padding: 0.5rem;
+        font-size: 0.8rem;
+      }
+
+      .grid-item p{
+        font-size: 0.9rem;
+      }
       .grid-container {
         grid-template-columns: 1fr;
         grid-template-rows: auto;
       }
   
       .grid-item {
+        padding: 1.2rem;
         grid-column: auto !important;
         grid-row: auto !important;
-        height: 220px;
+        height: 250px;
       }
     }
   </style>
