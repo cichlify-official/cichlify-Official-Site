@@ -3,6 +3,15 @@
 @import 'tailwindcss/utilities';
 
 
+@font-face {
+    font-family: "Violet-Sans";
+    font-style: normal;
+    src: url($lib/Fonts/TTF/VioletSans-Regular.ttf);
+    font-weight: 400;
+    font-display: swap;
+}
+
+
 
 :root {
     --primary: #3b28cc;
@@ -11,8 +20,8 @@
     --dark: #0a0a0a;
     --dark-gray: #1a1a1a;
     --light-gray: #f0f0f0;
-    --font-main: 'Inter', system-ui, sans-serif;
-    --font-mono: 'IBM Plex Mono', monospace;
+    --font-main: "Violet-Sans";
+    --font-mono: "Violet-Sans";
 }
 
 * {
@@ -26,7 +35,7 @@ body {
     color: var(--light-gray);
     padding: 3rem 2rem;
     min-height: 100vh;
-    font-family: var(--font-main);
+    font-family: "Violet-Sans";
     line-height: 1.6;
 }
 
